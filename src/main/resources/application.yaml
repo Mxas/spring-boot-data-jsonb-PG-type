@@ -1,0 +1,12 @@
+
+spring:
+  jpa:
+    database: POSTGRESQL
+  datasource:
+    url: jdbc:postgresql://localhost:5439/op
+#    url: jdbc:postgresql://localhost:5439/op?stringtype=unspecified
+    username: user
+    password: pass
+    hikari:
+      data-source-properties:
+        stringtype: unspecified
